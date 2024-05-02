@@ -135,7 +135,6 @@ args:
     c_l::Vector                       - c_l <= c_ineq(params, x) <= x_u 
     c_u::Vector                       - c_l <= c_ineq(params, x) <= x_u 
     x0::Vector                        - initial guess 
-    params::NamedTuple                - problem parameters for use in costs/constraints 
     diff_type::Symbol                 - :auto for ForwardDiff, :finite for FiniteDiff 
 
 optional args:
